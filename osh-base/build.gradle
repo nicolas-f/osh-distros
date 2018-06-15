@@ -9,6 +9,7 @@ dependencies {
   compile 'org.sensorhub:sensorhub-tools:' + oshCoreVersion
   compile 'org.sensorhub:sensorhub-driver-fakegps:[0.1,2.0)'
   compile 'org.sensorhub:sensorhub-driver-fakeweather:[0.1,2.0)'
+  compile 'org.sensorhub:sensorhub-storage-h2:' + oshCoreVersion
 }
 
 distributions {
