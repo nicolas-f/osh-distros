@@ -10,6 +10,8 @@ dependencies {
   compile 'org.sensorhub:sensorhub-driver-fakegps:[0.1,2.0)'
   compile 'org.sensorhub:sensorhub-driver-fakeweather:[0.1,2.0)'
   compile 'org.sensorhub:sensorhub-storage-h2:' + oshCoreVersion
+  compile 'org.sensorhub:sensorhub-storage-es:' + oshCoreVersion
+  compile 'org.noise_planet:sensorhub-driver-noisemonitoring-download-csv:1.0.0'
 }
 
 distributions {
